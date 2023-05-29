@@ -16,7 +16,7 @@ void FloydWarshall(int n)
             {  if(dist[i][j]>dist[i][k]+dist[k][j])
                 {
 				dist[i][j]=min(dist[i][j], dist[i][k] + dist[k][j]);
-                Next[i][j]=Next[i][k];
+                                Next[i][j]=Next[i][k];
                }
             }
 }
