@@ -117,7 +117,7 @@ struct segmentTree{
 		_merge(st[node], st[node*2], st[node*2 + 1]);
 	}
 
-    data query(int pos)
+        data query(int pos)
 	{
 		return _pQuery(1, 1, N, pos);
 	}
