@@ -104,7 +104,7 @@ struct segmentTree{
 			_propagate(node, L, R);
 		if(L == R)
 		{
-		    lazyFlag[node] = 1;
+		        lazyFlag[node] = 1;
 			lazyValue[node] = val;
 			_propagate(node, L, R);
 			return;
