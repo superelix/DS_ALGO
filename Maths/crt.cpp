@@ -75,6 +75,7 @@ ll max_power(ll n, ll p)
     }
     return exp;
 }
+
 ll inverse(ll a, ll m, ll &x, ll &y)
 {
     if (m == 0)
