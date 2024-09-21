@@ -76,6 +76,7 @@ ll max_power(ll n, ll p)
     return exp;
 }
 
+// a & m are coprime, x is multiplicative inverse of a in mod field of m.
 ll inverse(ll a, ll m, ll &x, ll &y)
 {
     if (m == 0)
